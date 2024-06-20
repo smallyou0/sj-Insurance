@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SJ Insurance</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header">
+      <div class="align triple">
+        <a href="home.html"><img src="images/logo_sm.svg" alt="로고"></a>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#none" onclick="alert('준비중입니다')"></a>
+        </div>
+      </div>
+    </header>
+    <main class="main pb150">
+      <section class="content">
+        <div class="text-type4 fz18 mt25 px16">매일 게임 참여하고<br>포인트 받으세요</div>
+        <div class="px16" onclick="alert('준비중입니다')">
+          <div class="card-line radius5 img-wrap2 px16 mt22">
+            <img class="w70 mx-auto" src="images/@img_sj5.png" alt="">
+          </div>
+        </div>
+        <div class="px16" onclick="alert('준비중입니다')">
+          <div class="card-line radius5 img-wrap2 px16 mt22">
+            <img class="w70 mx-auto" src="images/@img_sj6.png" alt="">
+          </div>
+        </div>
+        <div class="px16" onclick="alert('준비중입니다')">
+          <div class="card-line radius5 img-wrap2 px16 mt22">
+            <img class="w70 mx-auto" src="images/@img_sj7.png" alt="">
+          </div>
+        </div>
+        <div class="px16 mt14">
+          <div class="border-5 red"></div>
+        </div>
+      </section>
+      <div class="nav-foot">
+        <nav class="nav-foot__cont"> 
+          <ul>
+            <li class="ico-nav1"><a href="home.html">홈</a></li> 
+            <li class="ico-nav2 active"><a href="game.html">게임</a></li>
+            <li class="ico-nav3"><a href="#none" onclick="alert('준비중입니다')">설계사</a></li>
+            <li class="ico-nav4"><a href="info.html">보험 정보</a></li>
+            <li class="ico-nav5"><a href="#none" onclick="alert('준비중입니다')">더보기</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="align both px16 mt22">
+        <div class="text-type4 fz14 fw500">내 포인트</div>
+        <div class="text-type4">45,782 P</div>
+      </div>
+      <div class="align both px16 mt3">
+        <div class="text-type4 fz14 fw500">소멸 예정 포인트</div>
+        <div class="text-type4">782 P</div>
+      </div>
+      <div class="px16 align both mt23">
+        <button class="btn-main-empty w100" type="button" >환전하기</button>
+        <button class="btn-main-on w100 ml8" type="button" >포인트샵</button>
+      </div>
+    </main>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>

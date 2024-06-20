@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Insurance</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="bg-white" onload="redirectToB()">
+    <main class="main pt0">
+        <section class="content px16">
+            <div class="logo-wrap align gap-3 center vm column">
+                <div class="text-type4 fw600 center lh150">일상 속 쉬운 보험</div>
+                <h1 class="img-wrap2">
+                    <img src="images/logo.svg" alt="로고">
+                </h1>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript">
+        // 3초 후에 b.html로 이동
+        function redirectToB() {
+            setTimeout(function() {
+                window.location.href = "home.html";
+            }, 1500); // 3000 밀리초 = 3초
+        }
+    </script>
+    <script src="js/button.js"></script>
+    <script src="js/navFoot.js"></script>
+</body>
+</html>
